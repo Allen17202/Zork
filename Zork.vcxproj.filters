@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Commands.cpp" />
+    <ClCompile Include="Rooms.cpp" />
+    <ClCompile Include="Direction.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Commands.h" />
+    <ClInclude Include="Rooms.h" />
+    <ClInclude Include="Direction.h" />
+    <ClInclude Include="Program.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{fca55d5e-e281-4bec-b9f0-e59e57811213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
